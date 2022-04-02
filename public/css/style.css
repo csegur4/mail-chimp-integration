@@ -40,3 +40,8 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #0085b0 !important;
+  opacity: 1 !important; /* Firefox */
+}
