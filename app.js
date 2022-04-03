@@ -50,11 +50,9 @@ app.post("/", function (req, res){
         response.on("data", function(data){
             console.log(JSON.parse(data));
         })
-
     })
 
     console.log(request);
-
     request.write(jsonData);
     request.end();
 
